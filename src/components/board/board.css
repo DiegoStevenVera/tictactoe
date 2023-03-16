@@ -1,0 +1,20 @@
+.Retry {
+    color: #ef8e7d;
+}
+
+.AditionalInfo {
+    color: #ef8e7d;
+}
+
+.Retry:hover {
+    color: #544646;
+    cursor: pointer;
+}
+
+.Board {
+    width: 50%; 
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}

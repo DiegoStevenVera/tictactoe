@@ -1,0 +1,42 @@
+.Header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Header .Logo{
+    position: relative;
+    max-width: 80px;
+}
+
+.Header ul {
+    position: relative;
+    display: flex;
+}
+
+.Header ul li {
+    list-style: None;
+}
+
+.Contact {
+    display: inline-block;
+    color: #ef8e7d;
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: None;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: #544646;
+    cursor: pointer;
+}
