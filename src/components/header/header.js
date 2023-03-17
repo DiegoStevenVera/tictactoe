@@ -3,8 +3,8 @@ import './header.css';
 function Header() {
   return (
     <div className="Header">
-      <div className='Logo'>
-        LOGO
+      <div >
+        <img className='Logo' src='/tictactoe_logo.png' alt='logo'></img>
       </div>
       <ul className='Nav'>
         <li className='Contact'>
